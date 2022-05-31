@@ -6,7 +6,7 @@ A Random Object Generator for Addresses, Names, Reviews, Business Names, and Ran
 
 ## **Sources**
 - [Random Data Website](https://random-data-api.com/)
-- [Random Data Website 2](https://randommer.io/)
+- [Randommer Data Website](https://randommer.io/)
 
 
 1. For an overview of the Random Data API, [click here]( https://random-data-api.com/documentation).
