@@ -19,7 +19,7 @@ setup(name='random-text',
       license='BSD',
       python_requires='>=3.6',
       install_requires=[
-          'requests==2.27.1',
+          'requests',
           'pandas==1.4.2'
      ],
       classifiers=[
