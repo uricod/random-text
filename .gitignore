@@ -1,3 +1,5 @@
 *.pycache
 *.pyc
 /venv
+/dist
+/random_text.egg-info
