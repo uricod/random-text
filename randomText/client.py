@@ -26,7 +26,7 @@ class RandomTextClient:
         self.name = RandomObject(end_point='name/random_name')
         self.hipster = RandomObject(end_point='hipster/random_hipster_stuff')
         self.invoice = RandomObject(end_point='invoice/random_invoice')
-        self.user = RandomObject(end_point='user/random_user')
+        self.user = RandomObject(end_point='users/random_user')
         self.stripe = RandomObject(end_point='stripe/random_stripe')
         self.subscription = RandomObject(end_point='subscription/random_subscription')
         self.vehicle = RandomObject(end_point='vehicle/random_vehicle')
