@@ -1,5 +1,4 @@
 import requests
-from pandas import json_normalize
 import pandas as pd
 
 class BaseRandommer:
@@ -19,6 +18,9 @@ class BaseRandommer:
             df = pd.DataFrame(result.json(), columns=['Generated Value'])
             if len(df) == 0:
                 df = pd.DataFrame({'no data': ['no data returned']})
+
+        elif result.status_code == 400:
+            df = pd.DataFrame({'error': [f'bad request 400 - invalid parameters {result.text}']})
 
         elif result.status_code == 401:
             df = pd.DataFrame({'error': ['unauthorized 401 - invalid api key']})
