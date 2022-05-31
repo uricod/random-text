@@ -1,9 +1,9 @@
-from random import Random
 from randomText.src.endpoints import RandomObject
+from randomText.src.new_endpoints import RandomObjects2
 from .__version__ import __version__
 
 class RandomTextClient:
-    def __init__(self):
+    def __init__(self, api_key=None):
         self.address = RandomObject(end_point='address/random_address')
         self.appliance = RandomObject(end_point='appliance/random_appliance')
         self.app = RandomObject(end_point='app/random_app')
@@ -40,6 +40,9 @@ class RandomTextClient:
         self.phone_number = RandomObject(end_point='phone_number/random_phone_number')
         self.placeholdit = RandomObject(end_point='placeholdit/random_placeholdit')
         self.restaurant = RandomObject(end_point='restaurant/random_restaurant')
+
+        if api_key is not None:
+            self.fancy_random = RandomObjects2(api_key=api_key)
 
     def __str__(self):
         return f'RandomTextClient {__version__}'

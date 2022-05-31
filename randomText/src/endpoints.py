@@ -7,9 +7,9 @@ class RandomObject(BaseRandomText):
 
     def get_random(self, size, is_xml=False):
         """
-        Get a random address
-        :param size: number of addresses to return
-        :param is_xml: return xml or json
+        Get a random of objects
+        :param size: number of object examples to return
+        :param is_xml: just here for consistency but doesn't change anything
         :return:
         """
         method = 'GET'

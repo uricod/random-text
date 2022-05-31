@@ -1,10 +1,18 @@
 from randomText import RandomTextClient
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 def main():
-    client = RandomTextClient()
+    api_key = os.getenv('API_KEY')
+
+    client = RandomTextClient(api_key=api_key)
     response = client.coffee.get_random(size=5)
     print(response)
+
+    business_name = client.fancy_random.generate_business_name(size=2)
+    print(business_name)
 
 
 if __name__ == '__main__':

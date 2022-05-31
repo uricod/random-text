@@ -3,3 +3,4 @@
 /venv
 /dist
 /random_text.egg-info
+*.env
