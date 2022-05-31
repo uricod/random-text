@@ -89,4 +89,7 @@ Add GraphQL option for above API.
 Add more random data from this api: https://randommer.io/randommer-api
 
 #### **Tests**
-Not working as of yet
+To run test:
+```cmd
+python -m unittest discover -p *test.py
+```
