@@ -70,7 +70,8 @@ print(df.head(2))
 1. Restaurant
 
 #### TO DO
-Add GraphQL option
+Add GraphQL option for above API.
+Add more random data from this api: https://randommer.io/randommer-api
 
 #### **Tests**
 Not working as of yet
