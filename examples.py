@@ -11,6 +11,9 @@ def main():
     response = client.coffee.get_random(size=5)
     print(response)
 
+    lorem_pixel = client.lorem_pixel.get_random(size=5)
+    print(lorem_pixel)
+
     business_name = client.fancy_random.generate_business_name(size=2)
     print(business_name)
 
