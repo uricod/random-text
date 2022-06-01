@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/github/v/release/uricod/random-text">
 
 # **Random-Text**
-A Random Object Generator for Addresses, Names, Reviews, Business Names, and Random Objects.
+A Random Object Generator for Addresses, Names, Reviews, Testimonials, Business Names, and Random Objects.
 
 ## **Sources**
 - [Random Data Website](https://random-data-api.com/)
