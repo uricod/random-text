@@ -12,18 +12,21 @@ A Random Object Generator for Addresses, Names, Reviews, Testimonials, Business 
 - [Dad Jokes](https://icanhazdadjoke.com/)
 - [Shibe Generator](https://shibe.online/)
 - [Testimonial Generator](https://testimonialapi.toolcarton.com/)
+- [Text Generator](http://metaphorpsum.com/)
 
-
-1. For an Overview of the Random Data API, [click here]( https://random-data-api.com/documentation).
-1. For an Overview of the Randommer.io API [click here]( https://randommer.io/randommer-api)
-1. For an Overview of Random Geek Jokes, see above link.
-1. For an Overview of Evil Insult Generator see above link.
-1. For an Overview of Dad Jokes API [click here](https://icanhazdadjoke.com/api)
-1. For an Overview of Shibe.online API see above link.
-1. For an Overview of Testimonial Generator see above linke.
+| Description     | Type      | Link     |
+| ------------- | ------------- | -------- |
+| Random Data Website   | General | [Click](https://random-data-api.com/)  |
+| Randommer Data Website | General   | [Click](https://randommer.io/) |
+| Random Geek Jokes | Jokes | [Click](https://github.com/sameerkumar18/geek-joke-api)|
+| Evil Insult Generator | Jokes | [Click](https://evilinsult.com/api/)|
+| Dad Jokes | Jokes | [Click](https://icanhazdadjoke.com/)|
+| Shibe Generator | Images | [Click](https://shibe.online/) |
+| Testimonial Generator | Text | [Click](https://testimonialapi.toolcarton.com/)|
+| Text Generator | Text | [Click](http://metaphorpsum.com/)|
 
 ----
-To use the second api you will require a API Key. To create one is free. Go to Randommer.io website and register as a user and you will find API Key in your "account" section.
+> To use the Randommer API you will require a API Key. To create one is free. Follow link to  website and register as a user and you will find API Key in your "account" section.
 Don't forget to pass in the API key to the RandomTextClient if you want to use the second generator.
 
 #### **Requirements**
