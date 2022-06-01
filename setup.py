@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='random-text',
-      version='1.5.0',
+      version='1.6.0',
       description='A Python client library Random Data Api',
       long_description=long_description,
       long_description_content_type='text/markdown; charset=UTF-8',
