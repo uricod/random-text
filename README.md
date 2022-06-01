@@ -14,7 +14,7 @@ A Random Object Generator for Addresses, Names, Reviews, Testimonials, Business 
 - [Testimonial Generator](https://testimonialapi.toolcarton.com/)
 
 
-1. For an overview of the Random Data API, [click here]( https://random-data-api.com/documentation).
+1. For an Overview of the Random Data API, [click here]( https://random-data-api.com/documentation).
 1. For an Overview of the Randommer.io API [click here]( https://randommer.io/randommer-api)
 1. For an Overview of Random Geek Jokes, see above link.
 1. For an Overview of Evil Insult Generator see above link.
