@@ -23,7 +23,7 @@ A Random Object Generator for Addresses, Names, Reviews, Testimonials, Business 
 1. For an Overview of Testimonial Generator see above linke.
 
 ----
-To use the second api you will require a API Key. To create one is free. Go to above website and register as a user and you will find API Key in your "account" section.
+To use the second api you will require a API Key. To create one is free. Go to Randommer.io website and register as a user and you will find API Key in your "account" section.
 Don't forget to pass in the API key to the RandomTextClient if you want to use the second generator.
 
 #### **Requirements**
