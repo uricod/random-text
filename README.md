@@ -5,14 +5,6 @@
 A Random Object Generator for Addresses, Names, Reviews, Testimonials, Business Names, and Random Objects.
 
 ## **Sources**
-- [Random Data Website](https://random-data-api.com/)
-- [Randommer Data Website](https://randommer.io/)
-- [Random Geek Jokes](https://github.com/sameerkumar18/geek-joke-api)
-- [Evil Insult Generator](https://evilinsult.com/api/)
-- [Dad Jokes](https://icanhazdadjoke.com/)
-- [Shibe Generator](https://shibe.online/)
-- [Testimonial Generator](https://testimonialapi.toolcarton.com/)
-- [Text Generator](http://metaphorpsum.com/)
 
 | Description     | Type      | Link     |
 | ------------- | ------------- | -------- |
