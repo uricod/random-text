@@ -6,10 +6,7 @@ class RandomObject3(BaseGeek):
 
     def get_joke(self):
         """
-        Get a random of objects
-        :param size: number of object examples to return
-        :param is_xml: just here for consistency but doesn't change anything
-        :return:
+        :return: df of joke:
         """
         method = 'GET'
         parameters = {'format': 'json'}

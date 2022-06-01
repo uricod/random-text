@@ -21,7 +21,16 @@ def main():
     print(product_reviews)
 
     joke = client.geek.get_joke()
-    print(joke.iloc[0]['joke'])
+    print(f"Joke: {joke.iloc[0]['joke']}")
+
+    insult = client.evil.generate_insult()
+    print(f"Insult: {insult.iloc[0]['insult']} shown {insult.iloc[0]['shown']} times")
+
+    dad_joke = client.dad.get_dad_joke()
+    print(f"Dad joke: {dad_joke.iloc[0]['joke']}")
+
+    dad_jokes = client.dad.search_dad_jokes(page=1, limit=2, term='cat')
+    print(dad_jokes.head(2))
 
 if __name__ == '__main__':
     main()

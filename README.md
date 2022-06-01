@@ -8,11 +8,15 @@ A Random Object Generator for Addresses, Names, Reviews, Business Names, and Ran
 - [Random Data Website](https://random-data-api.com/)
 - [Randommer Data Website](https://randommer.io/)
 - [Random Geek Jokes](https://github.com/sameerkumar18/geek-joke-api)
+- [Evil Insult Generator](https://evilinsult.com/api/)
+- [Dad Jokes](https://icanhazdadjoke.com/)
 
 
 1. For an overview of the Random Data API, [click here]( https://random-data-api.com/documentation).
 1. For an overview of the Randommer.io API [click here]( https://randommer.io/randommer-api)
 1. For an Overview of Random Geek Jokes, see above link.
+1. For an Overview of Evil Insult Generator see above link.
+1. For an Overview of Dad Jokes API [click here](https://icanhazdadjoke.com/api)
 
 ----
 To use the second api you will require a API Key. To create one is free. Go to above website and register as a user and you will find API Key in your "account" section.
@@ -85,7 +89,9 @@ product_reviews = client.fancy_random.generate_product_reviews(size=2, product='
 1. Place Hold It
 1. Restaurant
 1. Fancy Random
-1. Geek
+1. Geek Jokes
+1. Evil Insults
+1. Dad Jokes
 
 #### TO DO
 Add GraphQL option for above API.
