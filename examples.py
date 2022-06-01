@@ -2,6 +2,8 @@ from randomText import RandomTextClient
 from dotenv import load_dotenv
 import os
 
+from randomText.src.base_testimonial import Testimonial
+
 load_dotenv()
 
 def main():
@@ -34,6 +36,12 @@ def main():
 
     dad_jokes = client.dad.search_dad_jokes(page=1, limit=2, term='cat')
     print(dad_jokes.head(2))
+
+    shibe_images = client.shibe.generate_images(size=1)
+    print(shibe_images.head(5))
+
+    testimonials = client.testimonial.generate_random()
+    print(testimonials.head(5))
 
 if __name__ == '__main__':
     main()

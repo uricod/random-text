@@ -3,6 +3,8 @@ from randomText.src.new_endpoints import RandomObjects2
 from randomText.src.geek_endpoints import RandomObject3
 from randomText.src.evil_endpoints import RandomObject4
 from randomText.src.dad_endpoints import RandomObject5
+from randomText.src.shibe_endpoints import RandomObject6
+from randomText.src.testimonial_endpoints import RandomObject7
 from .__version__ import __version__
 
 class RandomTextClient:
@@ -46,6 +48,8 @@ class RandomTextClient:
         self.geek = RandomObject3()
         self.evil = RandomObject4()
         self.dad = RandomObject5()
+        self.shibe = RandomObject6()
+        self.testimonial = RandomObject7()
 
         if api_key is not None:
             self.fancy_random = RandomObjects2(api_key=api_key)

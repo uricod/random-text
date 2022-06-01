@@ -10,13 +10,17 @@ A Random Object Generator for Addresses, Names, Reviews, Business Names, and Ran
 - [Random Geek Jokes](https://github.com/sameerkumar18/geek-joke-api)
 - [Evil Insult Generator](https://evilinsult.com/api/)
 - [Dad Jokes](https://icanhazdadjoke.com/)
+- [Shibe Generator](https://shibe.online/)
+- [Testimonial Generator](https://testimonialapi.toolcarton.com/)
 
 
 1. For an overview of the Random Data API, [click here]( https://random-data-api.com/documentation).
-1. For an overview of the Randommer.io API [click here]( https://randommer.io/randommer-api)
+1. For an Overview of the Randommer.io API [click here]( https://randommer.io/randommer-api)
 1. For an Overview of Random Geek Jokes, see above link.
 1. For an Overview of Evil Insult Generator see above link.
 1. For an Overview of Dad Jokes API [click here](https://icanhazdadjoke.com/api)
+1. For an Overview of Shibe.online API see above link.
+1. For an Overview of Testimonial Generator see above linke.
 
 ----
 To use the second api you will require a API Key. To create one is free. Go to above website and register as a user and you will find API Key in your "account" section.
@@ -92,10 +96,11 @@ product_reviews = client.fancy_random.generate_product_reviews(size=2, product='
 1. Geek Jokes
 1. Evil Insults
 1. Dad Jokes
+1. Shibe
 
 #### TO DO
-Add GraphQL option for above API.
-Add more random data from this api: https://randommer.io/randommer-api
+1. Add as many random open api's from the web. Based off https://github.com/public-apis/public-apis
+
 
 #### **Tests**
 To run tests:
