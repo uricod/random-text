@@ -97,6 +97,7 @@ product_reviews = client.fancy_random.generate_product_reviews(size=2, product='
 1. Evil Insults
 1. Dad Jokes
 1. Shibe
+1. Testimonials
 
 #### TO DO
 1. Add as many random open api's from the web. Based off https://github.com/public-apis/public-apis
