@@ -43,5 +43,14 @@ def main():
     testimonials = client.testimonial.generate_random()
     print(testimonials.head(5))
 
+    paragraphs = client.meta.get_paragraphs(size=2)
+    print(paragraphs.head(5))
+
+    sentences = client.meta.get_sentences(size=2)
+    print(sentences.head(5))
+
+    doc = client.meta.get_doc(paragraph_size=5, sentence_size=2)
+    print(doc.head(5))
+
 if __name__ == '__main__':
     main()
