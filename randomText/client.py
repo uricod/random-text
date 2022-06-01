@@ -1,5 +1,6 @@
 from randomText.src.endpoints import RandomObject
 from randomText.src.new_endpoints import RandomObjects2
+from randomText.src.geek_endpoints import RandomObject3
 from .__version__ import __version__
 
 class RandomTextClient:
@@ -40,6 +41,7 @@ class RandomTextClient:
         self.phone_number = RandomObject(end_point='phone_number/random_phone_number')
         self.placeholdit = RandomObject(end_point='placeholdit/random_placeholdit')
         self.restaurant = RandomObject(end_point='restaurant/random_restaurant')
+        self.geek = RandomObject3()
 
         if api_key is not None:
             self.fancy_random = RandomObjects2(api_key=api_key)

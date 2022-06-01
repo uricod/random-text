@@ -20,5 +20,8 @@ def main():
     product_reviews = client.fancy_random.generate_product_reviews(size=2, product='toy')
     print(product_reviews)
 
+    joke = client.geek.get_joke()
+    print(joke.iloc[0]['joke'])
+
 if __name__ == '__main__':
     main()
