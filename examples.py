@@ -10,7 +10,7 @@ def main():
     api_key = os.getenv('API_KEY')
 
     client = RandomTextClient(api_key=api_key)
-    response = client.coffee.get_random(size=5)
+    response = client.placeholdit.get_random(size=5)
     print(response)
 
     lorem_pixel = client.lorem_pixel.get_random(size=5)
