@@ -16,6 +16,7 @@ A Random Object Generator for Addresses, Names, Reviews, Testimonials, Business 
 | Shibe Generator | Images | [Click](https://shibe.online/) |
 | Testimonial Generator | Text | [Click](https://testimonialapi.toolcarton.com/)|
 | Text Generator | Text | [Click](http://metaphorpsum.com/)|
+| Faker | Images/General | [Click](https://fakerapi.it/en)
 
 ----
 > To use the Randommer API you will require a API Key. To create one is free. Follow link to  website and register as a user and you will find API Key in your "account" section.
@@ -100,6 +101,16 @@ product_reviews = client.fancy_random.generate_product_reviews(size=2, product='
 | Meta | `client.meta.get_paragraphs(size=2)` | df of paragraphs |
 | Meta | `client.meta.get_sentences(size=2)` | df of sentences |
 | Meta | `client.meta.get_doc(paragraph_size=5, sentence_size=2)` | df of paragraphs and sentences |
+| Faker | `client.faker.get_addresses(self, size=1, country='en_US')` | df of addresses|
+| Faker | `client.faker.get_books(self, size=1, country='en_US')` | df of books |
+| Faker | `get_companies(self, size=1, country='en_US')` | df of companies |
+| Faker | `get_credit_cards(self, size=1, country='en_US')` | df of cc |
+| Faker | `get_places(self, size=1, country='en_US')` | df of longitude and latitude of places |
+| Faker | `get_users(self, size=1, country='en_US')` | df of users |
+| Faker | `get_texts(self, size=1, characters=350, country='en_US')` | df of text | 
+| Faker | `get_products(self, size=1, price_min=0.01, price_max=10.35, taxes=25, categories_type='', country='en_US')` | df of products by category |
+| Faker | `get_persons(self, size=1, gender='male', birthday_start='1991-01-01', birthday_end='2022-01-01', country='en_US')` | df of people |
+| Faker | `get_images(self, size=1, type='any', width='640', height='480', country='en_US')` | df of images | 
 
 
 #### TO DO

@@ -52,5 +52,19 @@ def main():
     doc = client.meta.get_doc(paragraph_size=5, sentence_size=2)
     print(doc.head(5))
 
+    texts = client.faker.get_texts(size=2, characters=750, country='en_US')
+    print(texts.head(5))
+
+    products = client.faker.get_products(size=2, price_min=1.00, price_max=15.00, taxes=5, country='en_US')
+    print(products.head(5))
+    
+    persons = client.faker.get_persons(size=2, gender='male', country='en_US')
+    print(persons.head(5))
+
+    images = client.faker.get_images(size=2, type='any', width=680, height=480)
+    print(images.head())
+
+
+
 if __name__ == '__main__':
     main()

@@ -6,6 +6,7 @@ from randomText.src.dad_endpoints import RandomObject5
 from randomText.src.shibe_endpoints import RandomObject6
 from randomText.src.testimonial_endpoints import RandomObject7
 from randomText.src.meta_endpoints import RandomObject8
+from randomText.src.faker_endpoints import RandomObject9
 from .__version__ import __version__
 
 class RandomTextClient:
@@ -52,6 +53,7 @@ class RandomTextClient:
         self.shibe = RandomObject6()
         self.testimonial = RandomObject7()
         self.meta = RandomObject8()
+        self.faker = RandomObject9()
 
         if api_key is not None:
             self.fancy_random = RandomObjects2(api_key=api_key)
